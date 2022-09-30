@@ -1,0 +1,29 @@
+* {
+    background-color: aqua;
+}
+
+h3 {
+    color: aqua;
+}
+
+#titulo {
+    color: violet;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.texto_grande {
+    font-size: 20px;
+}
+
+h4,
+h5,
+h6 {
+    color: tomato;
+}
+
+p.centro {
+    text-align: center;
+}
