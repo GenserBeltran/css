@@ -1,0 +1,26 @@
+h1 {
+    background-color: beige;
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(114, 115, 117);
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.caja {
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.texto {
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 3;
+    white-space: normal;
+    text-shadow: 2px 2px 2px rgb(114, 115, 117);
+}
