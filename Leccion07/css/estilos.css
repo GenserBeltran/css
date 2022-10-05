@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
+
+h1 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+}
+
+.caja {
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+.caja.serif {
+    background-color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw;
+    /*view wiev viewport 1vw = 1*/
+
+}
+
+.fuentes_time {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.fuentes_giorgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.google_fonts {
+    font: italic small-caps 20px Roboto, sans-serif;
+}
