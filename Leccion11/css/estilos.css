@@ -1,0 +1,110 @@
+h1 {
+    text-align: center;
+    color: rgb(226, 74, 74);
+}
+
+div.contenedor {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(57, 157, 175);
+    padding: 15px;
+    color: rgb(30, 65, 161);
+}
+
+div.contenedor.descendiente p {
+    background-color: rgb(255, 201, 121);
+}
+
+div.contenedor.hijo>p {
+    background-color: rgb(238, 134, 229);
+}
+
+div.contenedor.adyacente+p {
+    background-color: greenyellow;
+}
+
+div.contenedor.hermano~p {
+    background-color: rgb(47, 241, 255);
+}
+
+div.contenedor2 {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(57, 157, 175);
+    padding: 15px;
+    color: rgb(39, 60, 116);
+}
+
+div.contenedor2:hover {
+    background-color: rgb(39, 60, 116);
+    color: beige;
+}
+
+div.contenedor2.oculto p {
+    display: none;
+
+}
+
+div.contenedor2.oculto:hover p {
+    display: block;
+    background-color: rgb(57, 157, 175);
+    color: rgb(18, 18, 58);
+    padding: 15px;
+}
+
+div.contenedor2.primero p:first-child {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+div.contenedor3 {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(57, 157, 175);
+    padding: 15px;
+    color: rgb(39, 60, 116);
+}
+
+div.contenedor3 p::selection {
+    color: red;
+    background-color: yellow;
+}
+
+div.contenedor3 p::first-line {
+    font-variant: small-caps;
+    color: red;
+}
+
+div.contenedor3 p::first-letter {
+    color: blue;
+    font-size: 1.5em;
+}
+
+div.contenedor3 p::before {
+    content: "- ";
+}
+
+div.contenedor3 p::after {
+    content: "  *_*";
+}
+
+div.contenedor4 {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(57, 157, 175);
+    padding: 15px;
+    color: rgb(39, 60, 116);
+    text-align: center;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
