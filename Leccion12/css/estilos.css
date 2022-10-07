@@ -1,0 +1,56 @@
+/*html {
+    height: auto;
+    min-height: 100%;
+}
+
+body {
+    /*background: linear-gradient(#f72585, rgb(126, 9, 155));
+    background: linear-gradient(to bottom right, #f72585, rgb(126, 9, 155));
+
+    color: #b4a3ab; 
+}  */
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 6px grey;
+}
+
+div.contenedor1 {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #f72585, rgb(126, 9, 155));
+}
+
+div.contenedor2 {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}
+
+div.contenedor3 {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 2px gray;
+}
+
+div.cabecero {
+    background-color: aqua;
+}
+
+div.cuerpo {
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(12, 180, 172);
+}
